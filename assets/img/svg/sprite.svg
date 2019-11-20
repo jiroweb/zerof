@@ -1,0 +1,65 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol viewBox="0 0 14.25 14.25" id="deformation" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <g id="dff">
+
+                <circle cx="7.13" cy="7.13" r="6.5"/>
+                <text style="font-size:11px;fill:#00a99d;font-weight:200;" transform="translate(4.10 11.10)">d</text>
+            </g>
+        </defs>
+        <use xlink:href="#dff" transform="translate(0 0 14.25 14.25)"/>
+    </symbol>
+
+    <symbol viewBox="0 0 14.25 14.25" id="destruction" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <g id="des">
+                <circle cx="7.13" cy="7.13" r="6.5"/>
+                <text style="font-size:11px;fill:#8cc63f;font-weight:200;" transform="translate(4.76 11.17)">b</text>
+            </g>
+        </defs>
+        <use xlink:href="#des" transform="translate(0 0 14.25 14.25)"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 14.25 14.25" id="scratch" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <g id="scr">
+                <circle cx="7.13" cy="7.13" r="6.5"/>
+                <text style="font-size:11px;fill:#ed1c24;font-weight:200;" transform="translate(4.18 11.07)">S</text>
+            </g>
+        </defs>
+        <use xlink:href="#scr" transform="translate(0 0 14.25 14.25)"/>
+    </symbol>
+
+    <symbol viewBox="0 0 14.25 14.25" id="chipping" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <g id="chip">
+                <circle cx="7.13" cy="7.13" r="6.5"/>
+                <text style="font-size:11px;fill:#fcee21;font-weight:200;" transform="translate(3.1 11)">C</text>
+            </g>
+        </defs>
+        <use xlink:href="#chip" transform="translate(0 0 14.25 14.25)"/>
+    </symbol>
+    <symbol viewBox="0 0 14.25 14.25" id="crack" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <g id="cr">
+                <circle cx="7.13" cy="7.13" r="6.5"/>
+                <text style="font-size:11px;fill:#f93;font-weight:200;" transform="translate(5.11 11)">f</text>
+            </g>
+        </defs>
+        <use xlink:href="#cr" transform="translate(0 0 14.25 14.25)"/>
+    </symbol>
+
+    <symbol viewBox="0 0 14.25 14.25" id="break" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <g id="br">
+                <circle cx="7.13" cy="7.13" r="6.5"/>
+                <text style="font-size:11px;fill:blue;font-weight:200;" transform="translate(3.85 9)">g</text>
+            </g>
+        </defs>
+        <use xlink:href="#br" transform="translate(0 0 14.25 14.25)"/>
+    </symbol>
+</svg>
+
+
+

@@ -1,0 +1,190 @@
+/* normalize css min start*/
+* {
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+/* normalize css min  end*/
+
+
+
+
+
+
+
+/* main css */
+
+[id].selected-SVG-path-on-hover {
+    fill: rgba(250, 209, 155, 0.7);
+}
+
+.for-hover {
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+[id].for-hover:hover {
+    fill: rgba(250, 209, 155, 0.7);
+}
+
+.interactive-car__block {
+    display: flex;
+    align-items: flex-start;
+}
+
+.interactive-car__svg {
+    width: 370px;
+    height: 479px;
+}
+
+.interactive-car__modal {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 20px -1px rgba(0, 0, 0, 0.5);
+    max-width: 130px;
+    width: 100%;
+    display: none;
+    z-index: 9999;
+}
+
+.interactive-car__modal ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.interactive-car__modal ul li {
+    position: relative;
+    padding: 3px 8px;
+    transition: 0.3s;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+
+.interactive-car__modal ul li span {
+    font-size: 12px;
+    color: black;
+    font-family: sans-serif;
+    position: relative;
+    width: auto;
+    letter-spacing: 1.2px;
+}
+
+.interactive-car__modal ul li:hover {
+    background-color: #FBD29B;
+}
+
+.interactive-car__modal--components ul li svg {
+    width: 17px;
+    height: 17px;
+    fill: #fff;
+    stroke-width: 1.25px;
+}
+
+.interactive-car__table {
+    margin-left: 50px;
+    max-width: 650px;
+    width: 100%;
+}
+
+.interactive-car__table--title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.interactive-car__table--results table tr td {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 5px 20px;
+    vertical-align: middle;
+    font-size: 14px;
+    text-align: center;
+}
+
+.interactive-car__table--results table tbody {
+    counter-reset: my-sec-counter;
+}
+
+.interactive-car__table--results-increment {
+    position: relative;
+    width: 10px;
+    height: 15px;
+    display: block;
+}
+
+.interactive-car__table--results-increment:before {
+    counter-increment: my-sec-counter;
+    content: counter(my-sec-counter) ". ";
+}
+
+.interactive-car__table--results table tbody tr {
+    transition: 0.3s;
+    cursor: default;
+}
+
+.interactive-car__table--results table tbody tr:hover,
+.interactive-car__table--results-hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.interactive-car__table--remove-row {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.interactive-car__table--remove-row:before,
+.interactive-car__table--remove-row:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+}
+
+.interactive-car__table--remove-row:before {
+    width: 11px;
+    height: 2px;
+}
+
+.interactive-car__table--remove-row:after {
+    width: 2px;
+    height: 11px;
+
+}
