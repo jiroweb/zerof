@@ -20,8 +20,6 @@ let SelectedSVG;
 $(document).ready(function () {
     $(window).on('click', function (e) {
         e.stopPropagation()
-
-
         $('#car-svg-for-js')[0].offsetTop
         let positionSVGBLockX = Math.round($('#car-svg-for-js').offset().left)
         let positionSVGBLockY = Math.round($('#car-svg-for-js').offset().top);
@@ -109,6 +107,7 @@ $(document).ready(function () {
                         $(SVG_selected).remove();
                         $(current_block).remove()
                     })
+                    
                     $(addedDefectOnTable).append(
                         "<tr onmouseover='showSvgIconActive(this)' onmouseout='hideSvgIconActive(this)' data-current-id='" + currentDefId + "' data-id='" + getRandomId + "'>" +
                         "<td><span class='interactive-car__table--results-increment'></span> </td>" +
@@ -123,8 +122,10 @@ $(document).ready(function () {
             SVG_X = 0;
             SVG_Y = 0;
         }
+    console.log(SelectedSVG)
 
     })
+
 })
 
 
